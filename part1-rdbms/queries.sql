@@ -1,3 +1,7 @@
+ -- NOTE:
+-- The dataset does not include product, city, or sales representative details.
+-- Therefore, queries are adapted based on available columns only.
+
 -- Q1: List all customers along with their total order value
 SELECT customer_id, SUM(total_amount) AS total_value
 FROM orders
